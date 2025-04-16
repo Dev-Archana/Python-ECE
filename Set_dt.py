@@ -1,0 +1,10 @@
+s1={}
+print(type(s1))
+s=set(s1)
+print(type(s))
+s.add(1)
+s.add("abc")
+s.add("xyz")
+s.add("m")
+s.add("c")
+print(s)
